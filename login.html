@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Login</title>
+</head>
+<body class="bg-image">
+    <section class="hero">
+        <div class="container">
+            <div class="row px-3">
+                <div class="col-12 col-md-5 form-wrap px-4 pt-2 pb-5">
+                    <div class="site-logo-wrap text-center">
+                        <img class="site-logo" src="./images/Dummy_Logo.png" width="250" height="auto" alt="site-logo">
+                        <p class="logo-title">Sign up into your account</p>
+                    </div>
+                    <form action="#" method="post" class="form-login-js" autocomplete="off">
+                        <div class="mb-3">
+                            <label for="inputEmail" class="form-label input-register">Email address</label>
+                            <input class="form-control input-login-email" type="email" name="your_email" id="inputEmail" placeholder="Enter your name.." required>
+                        </div>
+                        <div class="mb-3 position-relative">
+                            <label for="inputPassword" class="form-label input-register">Password</label>
+                            <input class="form-control input-input-password" type="password" name="your_password" id="inputPassword" placeholder="xxxxxxxxxx" autocomplete="off"required>
+                            <button class="btn-hidden" type="button"></button>
+                        </div>
+                        <a href="./register.html" class="forgit-password-link d-inline-block my-3 text-end">Forgot password?</a>
+                        <button type="submit" class="btn-submit w-100 my-3">Login in</button>
+                        <span class="d-block text-center my-4 line-or">OR</span>
+                        <a href="./register.html" class="signup-btn text-decoration-none d-block w-100">Signup now</a>
+                    </form>
+                </div>
+                <div class="col-12 col-md-6 px-0 mt-5 ms-md-5 d-flex justify-content-center align-items-center">
+                    <img class="bg-lock-img" src="./images/Background.png" width="600" height="500" alt="bg-lock-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+    <script src="./js/login.js"></script>
+</body>
+</html>

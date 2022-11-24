@@ -1,0 +1,167 @@
+/* poppins-regular - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'),
+    url('../fonts/poppins-v20-latin-regular.woff') format('woff');
+}
+/* poppins-500 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+    url('../fonts/poppins-v20-latin-500.woff2') format('woff2'),
+    url('../fonts/poppins-v20-latin-500.woff') format('woff'); 
+}
+/* poppins-600 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+    url('../fonts/poppins-v20-latin-600.woff2') format('woff2'), 
+    url('../fonts/poppins-v20-latin-600.woff') format('woff'); 
+}
+
+body{
+    font-family: Poppins, "Arial", "san-serf";
+}
+.bg-image{
+    background-color: #F4F4F4;
+}
+.form-wrap{
+    margin-top: 60px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.input-register{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #555555;
+}
+.input-name,
+.input-login-email{
+    font-size: 13px;
+    line-height: 21px;
+    color: #555555;
+    background: #EEEEEE;
+    border-radius: 8.07781px;
+    padding: 10px 22px;
+}
+.input-phone,
+.input-input-password{
+    font-size: 13px;
+    line-height: 21px;
+    color: #555555;
+    background: #EEEEEE;
+    border-radius: 8.07781px;
+    padding: 10px 22px;
+}
+.input-email{
+    font-size: 13px;
+    line-height: 21px;
+    color: #555555;
+    background: #EEEEEE;
+    border-radius: 8.07781px;
+    padding: 10px 22px;
+}
+.input-password{
+    font-size: 13px;
+    line-height: 21px;
+    color: #555555;
+    background: #EEEEEE;
+    border-radius: 8.07781px;
+    padding: 10px 22px;
+}
+.btn-submit,
+.signup-btn{
+    width: 214px;
+    height: 50.49px;
+    padding: 13px;
+    text-align: center;
+    background: #1E2772;
+    box-shadow: 0px 12.1167px 24.2334px rgba(1, 11, 253, 0.12);
+    border:none;
+    border-radius: 9px;
+    font-size: 16.1556px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+.signup-btn{
+    background-color: transparent;
+    border: 1.00973px solid #1E2772;
+    color: #1E2772;
+}
+.btn-hidden{
+    position: absolute;
+    top: 48px;
+    right: 12px;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    background-image: url("../images/eye-crossed.svg");
+    background-size: contain;
+    background-position: center;
+}
+.btn-hidden-show{
+    background-image: url("../images/eye.svg");
+}
+.logo-title{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16.1556px;
+    line-height: 24px;
+    text-align: center;
+    color: #555555;
+}
+.line-or{
+    font-size: 14.1362px;
+    line-height: 21px;
+    color: #C2C2C2;
+}
+.line-or::before{
+    content: '';
+    width: 100%;
+    max-width: 45%;
+    display: inline-block;
+    border-top: 1.00973px solid #C2C2C2;
+}
+.line-or::after{
+    content: '';
+    width: 100%;
+    max-width: 45%;
+    display: inline-block;
+    border-top: 1.00973px solid #C2C2C2;
+}
+.bg-lock-img{
+    width: 100%;
+    /* max-width: 900px; */
+    height: auto;
+}
+.btn-edit{
+    border: none;
+    background-color: transparent;
+    width:  25px;
+    height: 25px;
+    background-image: url("../images/pencil.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.btn-delet{
+    border: none;
+    background-color: transparent;
+    width:  26px;
+    height: 26px;
+    background-image: url("../images/trash-2.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
