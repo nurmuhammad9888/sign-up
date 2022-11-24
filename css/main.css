@@ -165,3 +165,43 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
 }
+.bg-wrap{
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/todo-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.todo-input{
+    padding: 15px;
+    background: #25273C;
+    border-radius: 6px;
+}
+.main-bg-color{
+    background-color: #1E1E1E;
+}
+.login-item{
+    border-bottom: 1px solid #c5bfbf38;
+}
+.main-list{
+    background: #25273C;
+    border-radius: 7px;
+}
+.login-title{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.complit-wrap{
+    padding: 20px;
+    background: #25273C;    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    color: #6C6E83;
+}
+.comp-color{
+    color: #4777DB;
+}

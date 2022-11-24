@@ -8,7 +8,7 @@ const elForm = document.querySelector(".todo-form");
 const elFormEdit = document.querySelector(".edit-form");
 const elTodoInput = document.querySelector(".todo-input");
 const elTodoEditInput = document.querySelector(".modal-edit");
-const elList = document.querySelector(".login-list");
+const elList = document.querySelector(".main-list");
 const elTemplate = document.querySelector(".login-template").content;
 const loginFragment = document.createDocumentFragment();
 

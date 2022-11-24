@@ -10,20 +10,27 @@
     <link rel="stylesheet" href="./css/main.css">
     <title>Index</title>
 </head>
-<body>
-    <section class="hero">
-        <div class="container">
-            <h1 class="my-5 text-bg-primary p-2 rounded">Todo list</h1>
-            
-            <form class="todo-form d-flex" action="#" method="POST">
-                <input class="todo-input form-control" type="text" name="todo_text" required>
-                <button class="btn ms-3 btn-danger" type="submit">Send</button>
-            </form>
-            <ul class="login-list list-unstyled my-5">
-                
-            </ul>
+<body class="main-bg-color">
+    <div class="bg-wrap">
+        <section class="hero">
+            <h1 class="pt-5 text-center text-white">Todo list</h1>
+            <div class="container">
+                <form class="todo-form d-flex mt-5" action="#" method="POST">
+                    <input class="todo-input form-control" type="text" name="todo_text" placeholder="Create a new todo..." required>
+                    <button class="btn ms-3 btn-outline-light" type="submit">Send</button>
+                </form>
+            </div>
         </div>
-
+        <div class="container">
+            <ul class="main-list list-unstyled mt-3 mb-0">
+            </ul>
+            <div class="complit-wrap d-flex justify-content-between align-items-center">
+                <p class="all mb-0">5 items left</p>
+                <p class="com mb-0"> <span class="comp-color">All</span> Activate Complete</p>
+                <p class="iscom mb-0">Clear com</p>
+            </div>
+        </div>
+        
         <!-- data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" -->
         <!-- <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
             <div class="offcanvas-header">
@@ -37,10 +44,10 @@
                 <button class="btn btn-primary" type="submit">Edit</button>
             </div>
         </div> -->
-
+        
     </section>
     <template class="login-template">
-        <li class="login-item d-flex align-items-center justify-content-between my-3 bg-primary p-3 rounded">
+        <li class="login-item d-flex align-items-center justify-content-between p-3">
             <h5 class="login-title text-white mb-0"></h5>
             <div class="d-flex justify-content-center">
                 <button class="btn-edit"  type="button"></button>
